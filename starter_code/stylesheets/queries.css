@@ -1,0 +1,36 @@
+/* Small Screens (width > 768px and width < 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* hero */
+
+  .header {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .header-left-col {
+    flex-basis: 60%;
+  }
+
+  .header-image {
+    flex-basis: 40%;
+  }
+
+  .header-image img {
+    all: unset;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+/* testimonials */
+
+.companies {
+}
+
+/* Medium Screens (width > 1024px and width < 1440px) */
+@media screen and (min-width: 1025px) and (max-width: 1439px) {
+}
+
+/* Large Screens (width > 1440px) */
+@media screen and (min-width: 1440px) {
+}
